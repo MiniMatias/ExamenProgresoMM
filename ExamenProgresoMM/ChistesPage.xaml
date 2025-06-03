@@ -8,7 +8,7 @@
                AbsoluteLayout.LayoutBounds="0.5,0.4,0.9,0.5"
                AbsoluteLayout.LayoutFlags="All" />
 
-        <Button Text="Otro chiste" FontSize="20" Clicked="OnOtroChisteClicked"
+        <Button Text="Otro chiste" FontSize="20" Clicked="OnOtroChisteClicked" WidthRequest="850" HorizontalOptions="Center" BackgroundColor="PaleVioletRed"
                 AbsoluteLayout.LayoutBounds="0.5,1,1,50"
                 AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional" />
     </AbsoluteLayout>

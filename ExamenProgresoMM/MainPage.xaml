@@ -5,7 +5,7 @@
     <StackLayout Padding="30" VerticalOptions="Center">
         <Label Text="Bienvenido a la app de Matías Monteros" FontSize="40" HorizontalOptions="Center" />
         <Image Source="perfil.png" HeightRequest="350" WidthRequest="350" HorizontalOptions="Center" />
-        <Button Text="Ver chiste" FontSize="20" Clicked="OnChisteClicked" Margin="0,20,0,0" /> 
-        <Button Text="Sobre mí" FontSize="20" Clicked="OnAboutClicked" />
+        <Button Text="Ver chiste" FontSize="20" Clicked="OnChisteClicked" WidthRequest="750" HorizontalOptions="Center" BackgroundColor="LimeGreen" />
+        <Button Text="Sobre mí" FontSize="20" Clicked="OnAboutClicked" WidthRequest="750" HorizontalOptions="Center" BackgroundColor="RosyBrown" />
     </StackLayout>
 </ContentPage>
