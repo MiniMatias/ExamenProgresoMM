@@ -9,12 +9,12 @@
 
         private async void OnChisteClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("ChistesPage");
+            await Navigation.PushAsync(new ChistesPage());
         }
 
         private async void OnAboutClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("AboutPage");
+            await Navigation.PushAsync(new AboutPage());
         }
     }
 }
