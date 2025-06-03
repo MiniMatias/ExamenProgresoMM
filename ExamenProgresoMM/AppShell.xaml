@@ -8,3 +8,4 @@
     <ShellContent Title="Sobre mí" ContentTemplate="{DataTemplate local:AboutPage}" />
 </Shell>
     
+    
