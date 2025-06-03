@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExamenProgresoMM.MainPage">
     <StackLayout Padding="30" VerticalOptions="Center">
-        <Label Text="Matías Monteros" FontSize="32" HorizontalOptions="Center" />
+        <Label Text="Bienvenido a la app de Matías Monteros" FontSize="32" HorizontalOptions="Center" />
         <Image Source="perfil.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" />
         <Button Text="Ver chiste" Clicked="OnChisteClicked" Margin="0,20,0,0" />
         <Button Text="Sobre mí" Clicked="OnAboutClicked" />
