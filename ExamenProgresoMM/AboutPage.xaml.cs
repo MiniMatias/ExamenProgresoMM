@@ -1,9 +1,10 @@
-namespace ExamenProgresoMM;
-
-public partial class AboutPage : ContentPage
+namespace ExamenProgresoMM
 {
-	public AboutPage()
-	{
-		InitializeComponent();
-	}
+    public partial class AboutPage : ContentPage
+    {
+        public AboutPage()
+        {
+            InitializeComponent();
+        }
+    }
 }
