@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ExamenProgresoMM.AboutPage">
-    <Grid Padding="20" RowDefinitions="*,*,*,*" ColumnDefinitions="*,*">
-        <Label Text="Nombre:" Grid.Row="0" Grid.Column="0" />
-        <Label Text="Matías Monteros" Grid.Row="0" Grid.Column="1" />
+             x:Class="ExamenProgresoMM.AboutPage"
+             Title="About">
+    <Grid Padding="20"
+          RowDefinitions="Auto,Auto"
+          ColumnDefinitions="Auto,Auto"
+          HorizontalOptions="Center"
+          VerticalOptions="Center">
 
-        <Label Text="Nacimiento:" Grid.Row="1" Grid.Column="0" />
-        <Label Text="26/03/2003" Grid.Row="1" Grid.Column="1" />
+        <!-- Fila 1 -->
+        <Frame BorderColor="Gray" CornerRadius="50" Padding="50" Grid.Row="0" Grid.Column="0">
+            <StackLayout>
+                <Label Text="Nombre:" FontSize="25" FontAttributes="Bold" />
+                <Label Text="Matías Monteros" FontSize="25" />
+            </StackLayout>
+        </Frame>
 
-        <Label Text="Intereses:" Grid.Row="2" Grid.Column="0" />
-        <Label Text="Videojuegos" Grid.Row="2" Grid.Column="1" />
+        <Frame BorderColor="Gray" CornerRadius="50" Padding="50" Grid.Row="0" Grid.Column="1">
+            <StackLayout>
+                <Label Text="Fecha:" FontSize="25" FontAttributes="Bold" />
+                <Label Text="26/03/2003" FontSize="25" />
+            </StackLayout>
+        </Frame>
 
-        <Label Text="Versión:" Grid.Row="3" Grid.Column="0" />
-        <Label Text="1.0" Grid.Row="3" Grid.Column="1" />
+        <!-- Fila 2 -->
+        <Frame BorderColor="Gray" CornerRadius="50" Padding="50" Grid.Row="1" Grid.Column="0">
+            <StackLayout>
+                <Label Text="Intereses:" FontSize="25" FontAttributes="Bold" />
+                <Label Text="Videojuegos" FontSize="25" />
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="Gray" CornerRadius="50" Padding="50" Grid.Row="1" Grid.Column="1">
+            <StackLayout>
+                <Label Text="Versión:" FontSize="25" FontAttributes="Bold" />
+                <Label Text="1.0" FontSize="25" />
+            </StackLayout>
+        </Frame>
+
     </Grid>
-</ContentPage>
+</ContentPage>   

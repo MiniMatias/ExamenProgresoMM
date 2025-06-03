@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExamenProgresoMM.MainPage">
     <StackLayout Padding="30" VerticalOptions="Center">
-        <Label Text="Bienvenido a la app de Matías Monteros" FontSize="32" HorizontalOptions="Center" />
-        <Image Source="perfil.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" />
-        <Button Text="Ver chiste" Clicked="OnChisteClicked" Margin="0,20,0,0" />
-        <Button Text="Sobre mí" Clicked="OnAboutClicked" />
+        <Label Text="Bienvenido a la app de Matías Monteros" FontSize="40" HorizontalOptions="Center" />
+        <Image Source="perfil.png" HeightRequest="350" WidthRequest="350" HorizontalOptions="Center" />
+        <Button Text="Ver chiste" FontSize="20" Clicked="OnChisteClicked" Margin="0,20,0,0" /> 
+        <Button Text="Sobre mí" FontSize="20" Clicked="OnAboutClicked" />
     </StackLayout>
 </ContentPage>
