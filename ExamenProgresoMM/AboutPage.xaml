@@ -7,12 +7,12 @@
         <Label Text="Matías Monteros" Grid.Row="0" Grid.Column="1" />
 
         <Label Text="Nacimiento:" Grid.Row="1" Grid.Column="0" />
-        <Label Text="01/01/2000" Grid.Row="1" Grid.Column="1" />
+        <Label Text="26/03/2003" Grid.Row="1" Grid.Column="1" />
 
         <Label Text="Intereses:" Grid.Row="2" Grid.Column="0" />
-        <Label Text="Programación, IA" Grid.Row="2" Grid.Column="1" />
+        <Label Text="Videojuegos" Grid.Row="2" Grid.Column="1" />
 
         <Label Text="Versión:" Grid.Row="3" Grid.Column="0" />
-        <Label Text="{x:Static AppInfo.VersionString}" Grid.Row="3" Grid.Column="1" />
+        <Label Text="1.0" Grid.Row="3" Grid.Column="1" />
     </Grid>
 </ContentPage>
